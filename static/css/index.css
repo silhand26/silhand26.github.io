@@ -197,7 +197,19 @@ h3 {
   margin-top: 29px;
 }
 .publication-authors sup {
-  margin-left: 3px;
+  margin-left: 4px;
+}
+.corresponding-mark {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: -0.15em;
+  color: var(--green);
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 .affiliation {
   font-size: 14px;
@@ -208,6 +220,11 @@ h3 {
   font-size: 11px;
   color: var(--muted);
   margin-top: 5px;
+}
+.author-note .corresponding-mark {
+  width: 12px;
+  height: 12px;
+  margin-right: 2px;
 }
 sup {
   font-size: 0.65em;
